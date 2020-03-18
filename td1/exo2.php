@@ -20,7 +20,7 @@
 <?php
     if (empty($_GET)) 
     {
-        echo "Erreur 404";
+        echo "Erreur 404 : paramètre not found";
     }
     echo "<div style='font-size: {$_GET["size"]}px; color: {$_GET["Color"]}'>{$_GET["message"]}</div>";
 ?>
