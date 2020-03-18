@@ -14,11 +14,15 @@
     <input type="submit" value="Valider">
 </form>
 <body>
-<a href="?Color=%23ff0000&size=15&message=salut">Message 1</a>
-<a href="?Color=%23ff0000&size=15&message=ça">Message 2</a>
-<a href="?Color=%231ae633&size=60&message=benji">Message 3</a>
-    <?php
+<a href="?Color=%23ff0000&size=15&message=Erreur 404">Message 1</a>
+<a href="?Color=%2339ff00&size=30&message=Erreur 404">Message 2</a>
+<a href="?Color=%230080ff&size=50&message=Erreur 404">Message 3</a>
+<?php
+    if (empty($_GET)) 
+    {
+        echo "Erreur 404";
+    }
     echo "<div style='font-size: {$_GET["size"]}px; color: {$_GET["Color"]}'>{$_GET["message"]}</div>";
-    ?>
+?>
 </body>
 </html>
