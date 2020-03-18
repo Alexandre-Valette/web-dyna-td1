@@ -23,6 +23,10 @@
         echo "Erreur 404 : paramètre not found";
     }
     echo "<div style='font-size: {$_GET["size"]}px; color: {$_GET["Color"]}'>{$_GET["message"]}</div>";
+    if (empty($_GET["size"])) {
+        $size = "12";
+        $color = "%230080ff";
+  }
 ?>
 </body>
 </html>
