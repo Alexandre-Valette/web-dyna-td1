@@ -6,7 +6,7 @@ git add .
 
 pause
 
-git commit -m "Envoy&eacute; par save.bat de Jordan Dubu"
+git commit -m "Envoy&#233; par save.bat de Jordan Dubu"
 
 pause
 
