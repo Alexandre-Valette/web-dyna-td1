@@ -12,25 +12,30 @@
 	<a href="?nbligne=10&nbcolonne=8">10 x 8</a>
 
 
-<?php
-if($i%2){
-
-}
-if($j%2){
-
-}
-?>
 	<table border='1'>
 		<tbody>
 			<?php
 			for($i=0;$i<$_GET["nbligne"];$i++){
-				echo"<tr>";
+				echo"<tr id='Bold'>";
 
 				for ($j=0; $j<$_GET["nbcolonne"]; $j++) { 
-					echo"<td>";
-					echo"$i-";
-					echo "$j";
-					echo"</td>";
+
+					if(($i%2)==0){
+						$Bold = "bold";
+					}
+					else{
+						$Bold = "normal";
+					}
+
+					if(($j%2)==0){
+						$Red = "red";
+					}
+					else{
+						$Red = "black";
+					}
+
+					echo"<td align='center'><p style='font-weight: $Bold; color:$Red;'>$i-$j";
+					echo"</p></td>";
 				}
 
 				echo"</tr>";
