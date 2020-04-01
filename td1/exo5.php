@@ -20,6 +20,6 @@
 
 	<?php
 	include "functions.php";
-	createHtmlTable($_POST["nbligne"]+1,$_POST["nbcolonne"]+1);
+	createHtmlTable($_POST["nbligne"],$_POST["nbcolonne"]);
 	include "footer.php";
 	?>

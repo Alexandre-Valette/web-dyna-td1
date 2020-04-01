@@ -2,10 +2,10 @@
 function createHtmlTable($nbligne,$nbcolonne) {
 	echo"<table border='1'>";
 	echo"<tbody>";
-	for($i=0;$i<$nbligne;$i++){
+	for($i=0;$i<$nbligne+1;$i++){
 		echo"<tr>";
 
-		for ($j=0; $j<$nbcolonne; $j++) { 
+		for ($j=0; $j<$nbcolonne+1; $j++) { 
 
 			if(($i%2)==0){
 				$Bold = "bold";
