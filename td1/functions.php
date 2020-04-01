@@ -2,10 +2,10 @@
 function createHtmlTable($nbligne,$nbcolonne) {
 	echo"<table border='1'>";
 	echo"<tbody>";
-	for($i=0;$i<$_GET["nbligne"];$i++){
+	for($i=0;$i<$nbligne;$i++){
 		echo"<tr>";
 
-		for ($j=0; $j<$_GET["nbcolonne"]; $j++) { 
+		for ($j=0; $j<$nbcolonne; $j++) { 
 
 			if(($i%2)==0){
 				$Bold = "bold";
@@ -27,7 +27,7 @@ function createHtmlTable($nbligne,$nbcolonne) {
 
 		echo"</tr>";
 	}
-	
+
 	echo"</tbody>";
 	echo"</table>";
 }
