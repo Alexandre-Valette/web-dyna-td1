@@ -16,7 +16,7 @@
 		<tbody>
 			<?php
 			for($i=0;$i<$_GET["nbligne"];$i++){
-				echo"<tr id='Bold'>";
+				echo"<tr>";
 
 				for ($j=0; $j<$_GET["nbcolonne"]; $j++) { 
 
