@@ -95,3 +95,5 @@
 {"message":"No route found for /MainController/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-04-29T14:32:10.656557+02:00","extra":{}}
 {"message":"No route found for /MainController/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-04-29T14:32:19.116438+02:00","extra":{}}
 {"message":"No route found for /MainController/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-04-29T14:32:20.202894+02:00","extra":{}}
+{"message":"No route found for /Admin/Controllers/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-04-29T14:34:23.600994+02:00","extra":{}}
+{"message":"No route found for /MainController/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-04-29T14:52:53.239303+02:00","extra":{}}
