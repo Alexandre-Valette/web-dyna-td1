@@ -1,15 +1,19 @@
 <?php
 namespace controllers;
- /**
- * Controller MainController
- * @get("_default","name"=>"Home")
- **/
-class MainController extends ControllerBase{
 
+class MainController extends ControllerBase{
+    /**
+     * Controller MainController
+     * @get("_default","name"=>"Home")
+     **/
 	public function index(){
-		
+	    
 	}
 
+	/**
+	 *@route("MainController/contact/{message}","methods"=>["get"])
+	 **/
+	
 	/**
 	 *@route("send/{message}/{who}","methods"=>["get"])
 	**/
