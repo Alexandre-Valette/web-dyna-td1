@@ -88,6 +88,7 @@ class ComposerStaticInit940821fe3981410b45df74e78592dcec
 
     public static $fallbackDirsPsr4 = array (
         0 => __DIR__ . '/../..' . '/app',
+        1 => __DIR__ . '/..' . '/phpmv/ubiquity-demos-datas/src',
     );
 
     public static $prefixesPsr0 = array (

@@ -1,7 +1,12 @@
 <?php
 namespace controllers;
 
-class MainController extends ControllerBase{
+use ws\controllers\AbstractWsController;
+
+/**
+ * Controller MainController
+ */
+class MainController extends AbstractWsController {
     /**
      * Controller MainController
      * @get("_default","name"=>"Home")
