@@ -10,12 +10,14 @@ class MainController extends ControllerBase{
 	    $this->loadView("MainController/index.html");
 	}
 
-	 /**
-     *@route("contact","methods"=>["get"],"name"=>"Contact")
-    **/
-    public function contactForm(){
-        $this->loadView("MainController/contactForm.html");
-    }
+	/**
+	 *@route("contact","methods"=>["get"],"name"=>"Contact")
+	**/
+	public function contactForm(){
+		
+		$this->loadView('MainController/contactForm.html');
+
+	}
 
 
 	/**
