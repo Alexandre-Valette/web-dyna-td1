@@ -260,3 +260,4 @@
 {"message":"No route found for /Admin/_execComposer/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-04-29T16:32:28.096376+02:00","extra":{}}
 {"message":"No route found for /Admin/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-04-29T16:42:44.266055+02:00","extra":{}}
 {"message":"No route found for /Admin/Composer/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-04-29T16:42:46.841430+02:00","extra":{}}
+{"message":"No route found for /ADmin/git/","context":{"context":"Router","part":"getRoute","extra":null},"level":300,"level_name":"WARNING","channel":"s5e8f211c2ba4c","datetime":"2020-05-07T13:28:10.171192+02:00","extra":{}}
