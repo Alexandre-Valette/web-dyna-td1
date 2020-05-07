@@ -3,6 +3,7 @@
 return array(
   '#namespace' => 'controllers',
   '#uses' => array (
+  'AbstractWsController' => 'ws\\controllers\\AbstractWsController',
 ),
   '#traitMethodOverrides' => array (
   'controllers\\MainController' => 
