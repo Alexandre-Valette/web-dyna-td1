@@ -11,4 +11,14 @@ class InscriptionsController extends ControllerBase{
 	public function index(){
 	    $this->loadView("InscriptionsController/index.html");
 	}
+
+	/**
+	 *@route("Inscription")
+	**/
+	public function Inscription(){
+		
+		$this->loadView('InscriptionsController/Inscription.html');
+
+	}
+
 }

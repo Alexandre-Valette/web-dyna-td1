@@ -1,2 +1,2 @@
 <?php
-return array("/_default/"=>array("get"=>array("controller"=>"controllers\\InscriptionsController","action"=>"index","parameters"=>array(),"name"=>"InscriptionsController-index","cache"=>false,"duration"=>false)));
+return array("/_default/"=>array("get"=>array("controller"=>"controllers\\InscriptionsController","action"=>"index","parameters"=>array(),"name"=>"InscriptionsController-index","cache"=>false,"duration"=>false)),"/Inscription/"=>array("controller"=>"controllers\\InscriptionsController","action"=>"Inscription","parameters"=>array(),"name"=>"InscriptionsController-Inscription","cache"=>false,"duration"=>false));

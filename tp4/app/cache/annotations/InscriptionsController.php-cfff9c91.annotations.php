@@ -12,5 +12,8 @@ return array(
   'controllers\\InscriptionsController::index' => array(
     array('#name' => 'get', '#type' => 'Ubiquity\\annotations\\router\\GetAnnotation', "_default")
   ),
+  'controllers\\InscriptionsController::Inscription' => array(
+    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "Inscription")
+  ),
 );
 
