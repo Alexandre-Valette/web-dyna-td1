@@ -21,4 +21,14 @@ class InscriptionsController extends ControllerBase{
 
 	}
 
+
+	/**
+	 *@route("/do/Inscription","methods"=>["post"])
+	**/
+	public function do(){
+		
+		$this->loadView('InscriptionsController/do.html');
+
+	}
+
 }

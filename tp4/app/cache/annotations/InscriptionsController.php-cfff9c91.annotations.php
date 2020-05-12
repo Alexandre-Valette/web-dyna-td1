@@ -15,5 +15,8 @@ return array(
   'controllers\\InscriptionsController::Inscription' => array(
     array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "Inscription")
   ),
+  'controllers\\InscriptionsController::loadView' => array(
+    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "/do/Inscription","methods"=>["post"])
+  ),
 );
 
